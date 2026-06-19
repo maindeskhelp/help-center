@@ -19,6 +19,22 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Getting Set Up",
+        "groups": [
+          {
+            "group": "Website Settings",
+            "pages": [
+              "connect-a-custom-domain-to-your-website",
+              "favicon-and-social-share-image",
+              "ssl-certificates",
+              "file-manager",
+              "tracking-who-fills-your-form-registers-or-checkouts-via-utm",
+              "on-page-seo-for-your-website-and-pages"
+            ]
+          }
+        ]
       }
     ]
   }
