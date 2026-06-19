@@ -1,0 +1,59 @@
+---
+title: "Add Facebook Pixel To Your Websites And Funnels"
+---
+
+Facebook Pixel helps you track events on your website or funnel, enabling you to optimize your advertising campaigns and make your Facebook ads more relevant to your audience.
+
+With our native Facebook Pixel integration you can track the following events:
+
+ 
+
+ 
+
+**PageView** - _triggered on every page view_ 
+
+**Lead** - _triggered on new lead - when a form is submitted, or an appointment is made_ 
+
+**AddToCart** - _triggered when a product is added to cart (passing the product title, price, currency and quantity)_ 
+
+**InitiateCheckout** - _triggered when someone initiates a checkout (i.e. visits a checkout page), passing the order total, currency, and the order items_ 
+
+**Purchase** - _triggered when checkout (or an upsell / downsell) is completed_ 
+
+**ViewContent** - _triggered when a visitor visits a product in your store. The ViewContent event is especially useful for delivering personalized ads to your customers._ 
+
+**CompleteRegistration** - _triggered when a visitor creates an account in your website or funnel_
+
+- If you added the Facebook Pixel code manually from the Custom Code Area in your website, you'll need to remove it to use the native integration. Removing the custom code won't have any negative effect to your data in Facebook, as long as you enable the native integration.
+
+ 
+
+## **Setting up your Facebook Pixel**
+
+To enable Facebook Pixel on your website, click on your **Website Settings** and select **Applications.**Choose the **Facebook Pixel app** and add your **Facebook Pixel ID**.
+
+If you don't have a Facebook Pixel already, [create one](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) and enter it's ID in the settings below:
+
+ 
+
+<Frame>
+  ![Image](/images/image.png)
+</Frame>
+
+## Setting up the Facebook Conversions API
+
+**Facebook Conversions API** (formerly known as Facebook Server-Side API) is a Facebook Tool that lets you share key web events, or customer actions, directly from our servers to Facebook without relying on the customer browser.
+
+**Facebook Conversions API** works with your **Facebook Pixel** to help improve the performance and measurement of your Facebook ad campaigns. This is all done without having to rely on browser-based tools like cookies.
+
+Nowadays, websites with third-party trackers will have to adapt since the consumer privacy laws become stricter. Tracking browser events is becoming harder and much more unreliable due ad blockers or privacy settings. The Conversions API can help bypass these issues while still providing key information to keep your social media marketing campaigns on point.
+
+**It's highly recommended to enable the Facebook Conversions API!**
+
+You will be prompted to enter an **Access Token** to use with the API. To obtain one, visit your Facebook Pixel, go to **Settings** and scroll down to the Conversions API area. Under "**set up manually"** you should click on Get Started or **Generate Access Token**. Copy the generated token and paste it in your website settings:
+
+ 
+
+ 
+
+That's it! Save the Facebook settings and you're done - events will be automatically reported from now on. Keep in mind that events triggered on your website take about 20 minutes to show in your pixel stats. The **_PageView_** event is not reported via the Conversions API (server side), only on the browser side.
