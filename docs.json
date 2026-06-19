@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com",
-  "name": "help-center",
+  "name": "Documentation",
   "theme": "mint",
   "colors": {
     "primary": "#0D9488",
