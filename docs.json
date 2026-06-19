@@ -1,5 +1,5 @@
 {
-  "$schema": "https://mintlify.com",
+  "$schema": "https://mintlify.com/schema.json",
   "name": "Documentation",
   "theme": "mint",
   "colors": {
@@ -7,12 +7,19 @@
     "light": "#2DD4BF",
     "dark": "#111827"
   },
-  "navigation": [
-    {
-      "group": "Getting Started",
-      "pages": [
-        "introduction"
-      ]
-    }
-  ]
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Docs",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction"
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
