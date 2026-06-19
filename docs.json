@@ -1,29 +1,18 @@
 {
+  "$schema": "https://mintlify.com",
   "name": "help-center",
-  "description": "Documentation index for the Help Center repository",
-  "version": "0.1.0",
-  "homepage": "https://github.com/maindeskhelp/help-center",
-  "repository": "maindeskhelp/help-center",
-  "lastUpdated": "2026-06-19",
-  "sections": [
+  "theme": "mint",
+  "colors": {
+    "primary": "#0D9488",
+    "light": "#2DD4BF",
+    "dark": "#111827"
+  },
+  "navigation": [
     {
-      "id": "getting-started",
-      "title": "Getting Started",
-      "path": "docs/getting-started.md"
-    },
-    {
-      "id": "guides",
-      "title": "Guides",
-      "path": "docs/guides"
-    },
-    {
-      "id": "api",
-      "title": "API Reference",
-      "path": "docs/api"
+      "group": "Getting Started",
+      "pages": [
+        "introduction"
+      ]
     }
-  ],
-  "contact": {
-    "maintainer": "maindeskhelp",
-    "email": ""
-  }
+  ]
 }
