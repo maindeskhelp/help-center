@@ -89,6 +89,14 @@
               "orders",
               "abandoned-cart-tracking"
             ]
+          },
+          {
+            "group": "Payments",
+            "pages": [
+              "stripe-connection",
+              "connect-your-payment-processor",
+              "accept-i-deal-payments-through-stripe"
+            ]
           }
         ]
       }
