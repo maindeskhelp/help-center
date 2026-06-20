@@ -1,33 +1,24 @@
 ---
 title: "Accept iDEAL payments through Stripe"
+mode: "wide"
 ---
 
 If you're selling in the Netherlands, you might want to offer payments through iDEAL to your customers.
 
- 
-
-To accept payments through iDEAL, you need to have active [Stripe](https://stripe.com/) account and connect it to your online store. 
-
- 
+To accept payments through iDEAL, you need to have active [Stripe](https://stripe.com/) account and connect it to your online store.
 
 Make sure you have Stripe enabled, with your keys set and "Enable iDEAL payments" checked:
-
- 
 
 <Frame>
   ![Image](/images/image-17.png)
 </Frame>
 
 \
-Then you need to go to your Stripe dashboard and create a webhook. Webhooks are required to notify your store that a payment was made. 
+Then you need to go to your Stripe dashboard and create a webhook. Webhooks are required to notify your store that a payment was made.
 
 **If not set correctly, payments through iDEAL will not be processed!**
 
- 
-
 To create a webhook, login to Stripe, go to Developers -\> Webhooks -\> click on **Add endpoint**  and fill "Url to be called" with the url from your Stripe settings (e.g.  [https://mysite.com/\_service/stripe](https://mysite.com/_service/stripe)  from the screenshot above):
-
- 
 
 <Frame>
   ![Image](/images/image-18.png)
@@ -36,5 +27,3 @@ To create a webhook, login to Stripe, go to Developers -\> Webhooks -\> click on
 **Optional:** You can filter the event types to **source.canceled**, **source.chargeable** and **source.failed** only.
 
 If using test data, you need to create the webhook in the testing environment as well.
-
- 

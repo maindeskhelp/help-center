@@ -1,45 +1,29 @@
 ---
 title: "Automations not firing - what can I do?"
+mode: "wide"
 ---
 
 The Automations are a powerful tool that can help you leverage other platform functionalities quickly and streamline your lead and email marketing strategy. By using automated processes, you are able to perform actions immediately following a trigger and don't miss out on sending an email or quickly tag someone to inform or manage their status accordingly. It does sound great, however, sometimes you may run into a configuration issue which can cause the automation not to start. Don't worry, we will look into the most common reasons and remedies of automations not triggering.
 
- 
+## **Before we start, make sure all Checklist points below are all TRUE.**
 
-## **Before we start, make sure all Checklist points below are all TRUE.** 
-
-1. The User meant to enter the automation **MUST** be a email subscriber. 
-
+1. The User meant to enter the automation **MUST** be a email subscriber.
 2. The automation is **On**.
+3. You have a **trigger**.
+4. The User you expect to see in the automation met the trigger condition only **after** the automation was **turned on**.
+5. Your email marketing is **not limited** due to any reason related to Poor reputation or reaching your email subscriber plan limits.
 
-3. You have a **trigger**. 
+If all of the above are true or at least you believe are true but not sure how to verify, we will look into the possible reasons, some of which are the above mentioned to see how to fully investigate a non-starting automation.
 
-4. The User you expect to see in the automation met the trigger condition only **after** the automation was **turned on**. 
+## **Let's begin.**
 
-5. Your email marketing is **not limited** due to any reason related to Poor reputation or reaching your email subscriber plan limits. 
+The first and most important part of troubleshooting a non-starting automation is to fully comprehend how the automation is intended to work and what is the User's journey to get to it. Are they filling a form, making a purchase via checkout or are they receiving the attribute needed to trigger the automation manually?
 
-If all of the above are true or at least you believe are true but not sure how to verify, we will look into the possible reasons, some of which are the above mentioned to see how to fully investigate a non-starting automation. 
+## \\
 
- 
-
-## **Let's begin.** 
-
-The first and most important part of troubleshooting a non-starting automation is to fully comprehend how the automation is intended to work and what is the User's journey to get to it. Are they filling a form, making a purchase via checkout or are they receiving the attribute needed to trigger the automation manually? 
-
-## \
 **Example 1: Form submission**
 
-For the sake of the example, let's assume you are collecting leads via newsletter subscription form and you want to place them into an automation that send them one or a series of emails. Normally, on the newsletter subscription form, you would have the option to give a tag enabled with a Tag selected. In this case, we have the "automation start" tag. As seen below, the tag is selected in the Form settings and added as a Trigger to the automation. 
-
- 
-
- 
-
- 
-
- 
-
- 
+For the sake of the example, let's assume you are collecting leads via newsletter subscription form and you want to place them into an automation that send them one or a series of emails. Normally, on the newsletter subscription form, you would have the option to give a tag enabled with a Tag selected. In this case, we have the "automation start" tag. As seen below, the tag is selected in the Form settings and added as a Trigger to the automation.
 
 You would expect this would start the automation if the User submits the form, however, as per the checklist above, you need to also add this User to an email subscribers list, otherwise they are prohibited from entering an automation or email campaign. \
 The solution to this is quite simple. In the form settings, you will see a button prompting you to "Select Lists" next to the "Connect to Email Marketing".\
@@ -56,46 +40,35 @@ If your automation is On, you should do a test now. Complete the form using an e
 
 Another popular use case is adding a User to an automation with the purchase of a Product. \
 ​\
-There are usually two ways: \
-1. By having the same settings in the Checkout form as you would have in the example above (addition to an email list and tag provision). \
-​\
-​
+There are usually two ways: \\
 
+1. By having the same settings in the Checkout form as you would have in the example above (addition to an email list and tag provision). \
+   ​\
+   ​
 2. Having a product give the User a specific tag (not the checkout form). In this example, the automation operator has decided to only start the automation if a specific product is purchased, not just any to complete the checkout. By adding a tag to the product directly, the operator is making sure the Client only enters the automation if they purchase said product by receiving the specific tag to trigger the automation. \
-​\
-​
+   ​\
+   ​
 
 \
-What to look out for in these two examples is quite similar:\
-- Check if the checkout is adding the Client to an email subscriber's list\
+What to look out for in these two examples is quite similar:\\
+
+- Check if the checkout is adding the Client to an email subscriber's list\\
 - Check if the client is receiving the tag by going to the CRM, find the Contact and access their profile to see if they have it. There you can see if they are part of the email list as well. \
-​\
-The best way to troubleshoot is to replicate the customer's journey. Access your website from Incognito window or an entirely new browser and simulate the customer's steps to test purchase said product using an email that is not associated to an existing contact. \
-Once done, go back to your builder and see if both the tag and list addition are successful and if the automation was triggered for the User. If not, see if the automation is turned on and if the trigger condition matches what they gets as a tag. 
-
- 
-
- 
+  ​\
+  The best way to troubleshoot is to replicate the customer's journey. Access your website from Incognito window or an entirely new browser and simulate the customer's steps to test purchase said product using an email that is not associated to an existing contact. \
+  Once done, go back to your builder and see if both the tag and list addition are successful and if the automation was triggered for the User. If not, see if the automation is turned on and if the trigger condition matches what they gets as a tag.
 
 If you confirm that all matches and also each point in the Checklist above is true, please contact the Customer Support Team. \
 ​
 
-## **Important things to remember.** 
+## **Important things to remember.**
 
-- The User should not have previously met the trigger for the automation as in that case, they won't be picked up. Unless, the option to "repeat" the trigger is turned on in your Trigger step. 
-
-- Always make sure the User is a Subscriber (is part of an email subscriber list), otherwise they cannot enrol. 
-
-- Confirm that your trigger matches what the User getting in terms of a tag or another property. 
-
+- The User should not have previously met the trigger for the automation as in that case, they won't be picked up. Unless, the option to "repeat" the trigger is turned on in your Trigger step.
+- Always make sure the User is a Subscriber (is part of an email subscriber list), otherwise they cannot enrol.
+- Confirm that your trigger matches what the User getting in terms of a tag or another property.
 - Make sure that if you have a Goal, it is not the same as the Trigger as this will not allow the Automation to start. \
-​
-
+  ​
 - When testing the User's journey to get to the automation, make sure you are using an email that does is not in the CRM already and one that was not in the automation previously, even if it was deleted and re-added. \
-​
+  ​
 
-If you are sure all of the above is correct but the Automation is not firing - please contact Customer Support and provide your troubleshoot findings in order to get the Automation setup inspected further. 
-
- 
-
- 
+If you are sure all of the above is correct but the Automation is not firing - please contact Customer Support and provide your troubleshoot findings in order to get the Automation setup inspected further.
