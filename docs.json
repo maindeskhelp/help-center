@@ -67,25 +67,6 @@
             ]
           },
           {
-            "group": "Sales Funnels",
-            "pages": [
-              "move-a-funnel-to-another-project",
-              "connect-a-custom-domain-to-your-funnel",
-              "customizing-your-funnel-settings",
-              "how-to-share-a-funnel",
-              "upsells-and-downsells"
-            ]
-          },
-          {
-            "group": "SMS - WhatsApp - Voice Messaging",
-            "pages": [
-              "how-to-send-an-sms-marketing-campaign",
-              "how-to-send-a-voice-message-to-a-specific-contact",
-              "how-to-send-an-sms-to-a-specific-contact",
-              "how-to-send-a-whats-app-message-to-a-specific-contact"
-            ]
-          },
-          {
             "group": "Ecommerce",
             "pages": [
               {
@@ -110,6 +91,25 @@
                   "accept-i-deal-payments-through-stripe"
                 ]
               }
+            ]
+          },
+          {
+            "group": "Sales Funnels",
+            "pages": [
+              "move-a-funnel-to-another-project",
+              "connect-a-custom-domain-to-your-funnel",
+              "customizing-your-funnel-settings",
+              "how-to-share-a-funnel",
+              "upsells-and-downsells"
+            ]
+          },
+          {
+            "group": "SMS - WhatsApp - Voice Messaging",
+            "pages": [
+              "how-to-send-an-sms-marketing-campaign",
+              "how-to-send-a-voice-message-to-a-specific-contact",
+              "how-to-send-an-sms-to-a-specific-contact",
+              "how-to-send-a-whats-app-message-to-a-specific-contact"
             ]
           },
           {
