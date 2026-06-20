@@ -41,6 +41,18 @@
               "how-to-customize-system-emails",
               "page-size-speed-and-bandwidth-consumption"
             ]
+          },
+          {
+            "group": "Page Design",
+            "pages": [
+              "how-to-use-the-unsplash-integration",
+              "how-to-add-a-tilted-divider-to-your-columns",
+              "how-to-use-global-styling-in-your-website-or-funnel",
+              "how-to-use-the-drag-and-drop-builder",
+              "ai-writing-assistant",
+              "how-to-add-more-fonts-to-text-editor",
+              "how-to-create-a-new-page"
+            ]
           }
         ]
       }
