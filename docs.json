@@ -99,6 +99,79 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Sales Funnels",
+        "pages": [
+          "move-a-funnel-to-another-project",
+          "connect-a-custom-domain-to-your-funnel",
+          "customizing-your-funnel-settings",
+          "how-to-share-a-funnel",
+          "upsells-and-downsells"
+        ]
+      },
+      {
+        "tab": "Memberships",
+        "pages": [
+          "creating-a-membership-product"
+        ]
+      },
+      {
+        "tab": "Email Marketing & Automations",
+        "pages": [
+          "connecting-a-domain-for-email-sending",
+          "why-we-review-email-accounts",
+          "do-your-recipients-recognize-you",
+          "gmail-and-yahoos-new-email-requirements",
+          "individual-emailing",
+          {
+            "group": "Automations",
+            "pages": [
+              "automation-overview",
+              "automations-not-firing-what-can-i-do"
+            ]
+          },
+          {
+            "group": "Email Campaigns",
+            "pages": [
+              "creating-my-email-templates",
+              "email-campaigns"
+            ]
+          },
+          {
+            "group": "Subscribers",
+            "pages": [
+              "double-opt-in-for-your-forms",
+              "adding-subscribers-to-your-list-via-forms-checkouts-quizzes",
+              "adding-a-subscriber-to-a-list",
+              "importing-subscribers",
+              "how-to-unsubscribe-subscribe-a-user",
+              "creating-an-email-marketing-segment"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "SMS - WhatsApp - Voice Messaging",
+        "pages": [
+          "how-to-send-an-sms-marketing-campaign",
+          "how-to-send-a-voice-message-to-a-specific-contact",
+          "how-to-send-an-sms-to-a-specific-contact",
+          "how-to-send-a-whats-app-message-to-a-specific-contact"
+        ]
+      },
+      {
+        "tab": "Bookings & Appointments",
+        "pages": [
+          "create-a-booking-service",
+          "create-a-booking-operator",
+          "auto-assign-booking-operator",
+          "booking-availability",
+          "questions-before-booking"
+        ]
+      },
+      {
+        "tab": "CRM"
       }
     ]
   }

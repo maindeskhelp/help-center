@@ -1,0 +1,62 @@
+---
+title: "Gmail and Yahoo's new email requirements"
+---
+
+## **Emailing policy change 2024**
+
+In 2024, starting 1st of February, Gmail and Yahoo's emailing policy is changing. What used to be a general recommendation is now a requirement. The new policy requires all email sent to be from a verified domain, be singed with DKIM, SPF and DMARC (mainly for bulk senders above 5k email per day), maintain low spam rate of less than 0,3% and have an easy way to unsubscribe by just using one click Unsubscribe button. \
+​
+
+## **Let's start by checking what is DKIM**
+
+DKIM, which stands for DomainKeys Identified Mail, is a security standard used in email authentication. It is designed to allow email senders to digitally sign their emails to prove their authenticity. The primary purpose of DKIM is to combat email fraud and phishing. By digitally signing emails, DKIM helps verify that the message was actually sent by the claimed sender and that it hasn't been tampered with during transit.\
+​
+
+## **What is SPF**
+
+It is an email authentication protocol that helps prevent email spoofing and phishing by allowing domain owners to specify which mail servers are authorized to send emails on behalf of their domain. SPF works by adding a DNS record to the domain's DNS settings, indicating a list of authorized mail servers.\
+When an email is sent, the recipient's mail server can check the SPF record of the sender's domain. If the sending mail server is listed as an authorized server in the SPF record, the email is considered legitimate. If the sending server is not listed or is not authorized, the recipient's server may treat the email as suspicious or reject it outright.
+
+ 
+
+## **Lastly, what is a DMARC**
+
+DMARC, is an email authentication protocol that builds upon SPF and DKIM. DMARC allows domain owners to specify how email messages claiming to be from their domain should be handled if they fail SPF or DKIM checks. The primary goals of DMARC are to combat email phishing and increase email authentication and delivery reliability.\
+​
+
+## **Spam rate of less 0.3%**
+
+Spam rate refers to the percentage of spam messages in the total volume of emails sent. It represents the proportion of unwanted or unsolicited emails in comparison to legitimate emails.\
+For example, if you send 1000 emails, spam rate of less than 0.3% means that you need to have less than 3 spam reports out of the 1000 emails sent in order to be compliant. 
+
+ 
+
+## **Easy One-click Unsubscribe**
+
+Implementing a straightforward unsubscribe option for your recipients can substantially decrease your spam rate. This feature signals to users that you respect their preferences and are not compelling them to receive emails against their will. Providing an easy way to exit your mailing list ensures that users won't resort to marking your emails as spam simply to halt further marketing messages. This proactive approach not only enhances user experience but also contributes to maintaining a positive sender reputation and reducing the likelihood of your emails being flagged as spam.
+
+ 
+
+## **How does this affect you and what do you need to do next?** 
+
+The good news is that most items are already being required from our end to make you compliant with using our Email Marketing and Automation service. \
+​\
+​**DMARC** Although this would mostly apply for regular bulk email senders, over 5k per day, we recommend that everyone adds such record to make sure you are compliant in any case. \
+You need to reach out to your Email domain host and find out their instructions on how to create the record and add to your domain's DNS. You can also check in [Google](https://support.google.com/a/answer/2466580?hl=en) for general information on how DMARC records are created. \
+​\
+​**DKIM and SPF** records are already applied from Verifying your domain (DKIM) and by the fact that we use Amazon's emailing servers, that are already applying SPF, hence no need to do anything on that aspect.\
+​\
+We have also actively been applying the less than **0.3% spam rate** policy for years. Going over this metric would put you in a review state and therefore stop your current sending to mitigate further spam reports that would damage your sender reputation. \
+​\
+​**Unsubscribe link -** We do add such link by default in every email that you start constructing, hence, we would only advise that you make it slightly more visible, so it is even easier now for the recipient to find it if they wish to unsubscribe. 
+
+ 
+
+ 
+
+ 
+
+\
+​
+
+ 
