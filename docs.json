@@ -62,6 +62,33 @@
               "create-your-first-popup",
               "global-columns-content"
             ]
+          },
+          {
+            "group": "Security & Privacy (GDPR)",
+            "pages": [
+              "requesting-customers-data",
+              "tracking-cookies-how-to-stop-them",
+              "cookies-disclaimer-how-to-enable-disable"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Ecommerce",
+        "groups": [
+          {
+            "group": "Store settings",
+            "pages": [
+              "how-to-add-a-physical-product",
+              "how-to-create-a-digital-product",
+              "discount-codes",
+              "shipping-options",
+              "sales-taxes",
+              "tracking-links",
+              "store-layout-and-styling",
+              "orders",
+              "abandoned-cart-tracking"
+            ]
           }
         ]
       }
