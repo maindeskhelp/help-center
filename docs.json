@@ -4,7 +4,7 @@
   "theme": "mint",
   "colors": {
     "primary": "#5555ff",
-    "light": "#2DD4BF",
+    "light": "#b8b8fb",
     "dark": "#111827"
   },
   "navigation": {
