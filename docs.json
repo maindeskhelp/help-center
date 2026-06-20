@@ -94,7 +94,7 @@
         ]
       },
       {
-        "tab": "Getting Set Up"
+        "tab": "Ecommerce"
       },
       {
         "tab": "Sales Funnels",
@@ -105,6 +105,9 @@
           "how-to-share-a-funnel",
           "upsells-and-downsells"
         ]
+      },
+      {
+        "tab": "Getting Set Up"
       },
       {
         "tab": "Memberships",
@@ -175,9 +178,6 @@
           "booking-availability",
           "questions-before-booking"
         ]
-      },
-      {
-        "tab": "Ecommerce"
       }
     ]
   }
