@@ -10,15 +10,12 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Untitled Tab"
-      },
-      {
         "tab": "Docs",
-        "groups": [
+        "pages": [
+          "introduction",
           {
             "group": "Getting Started",
             "pages": [
-              "introduction",
               {
                 "group": "Website Settings",
                 "pages": [
@@ -68,115 +65,114 @@
                 ]
               },
               {
-                "group": "Store settings",
+                "group": "Sales Funnels",
                 "pages": [
-                  "how-to-add-a-physical-product",
-                  "how-to-create-a-digital-product",
-                  "discount-codes",
-                  "shipping-options",
-                  "sales-taxes",
-                  "tracking-links",
-                  "store-layout-and-styling",
-                  "orders",
-                  "abandoned-cart-tracking"
+                  "move-a-funnel-to-another-project",
+                  "connect-a-custom-domain-to-your-funnel",
+                  "customizing-your-funnel-settings",
+                  "how-to-share-a-funnel",
+                  "upsells-and-downsells"
                 ]
               },
               {
-                "group": "Payments",
+                "group": "SMS - WhatsApp - Voice Messaging",
                 "pages": [
-                  "stripe-connection",
-                  "connect-your-payment-processor",
-                  "accept-i-deal-payments-through-stripe"
+                  "how-to-send-an-sms-marketing-campaign",
+                  "how-to-send-a-voice-message-to-a-specific-contact",
+                  "how-to-send-an-sms-to-a-specific-contact",
+                  "how-to-send-a-whats-app-message-to-a-specific-contact"
+                ]
+              },
+              {
+                "group": "Ecommerce",
+                "pages": [
+                  {
+                    "group": "Store settings",
+                    "pages": [
+                      "how-to-add-a-physical-product",
+                      "how-to-create-a-digital-product",
+                      "discount-codes",
+                      "shipping-options",
+                      "sales-taxes",
+                      "tracking-links",
+                      "store-layout-and-styling",
+                      "orders",
+                      "abandoned-cart-tracking"
+                    ]
+                  },
+                  {
+                    "group": "Payments",
+                    "pages": [
+                      "stripe-connection",
+                      "connect-your-payment-processor",
+                      "accept-i-deal-payments-through-stripe"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Memberships",
+                "pages": [
+                  "creating-a-membership-product"
+                ]
+              },
+              {
+                "group": "Email Marketing & Automations",
+                "pages": [
+                  "connecting-a-domain-for-email-sending",
+                  "why-we-review-email-accounts",
+                  "do-your-recipients-recognize-you",
+                  "gmail-and-yahoos-new-email-requirements",
+                  "individual-emailing",
+                  {
+                    "group": "Automations",
+                    "pages": [
+                      "automation-overview",
+                      "automations-not-firing-what-can-i-do"
+                    ]
+                  },
+                  {
+                    "group": "Email Campaigns",
+                    "pages": [
+                      "creating-my-email-templates",
+                      "email-campaigns"
+                    ]
+                  },
+                  {
+                    "group": "Subscribers",
+                    "pages": [
+                      "double-opt-in-for-your-forms",
+                      "adding-subscribers-to-your-list-via-forms-checkouts-quizzes",
+                      "adding-a-subscriber-to-a-list",
+                      "importing-subscribers",
+                      "how-to-unsubscribe-subscribe-a-user",
+                      "creating-an-email-marketing-segment"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "CRM",
+                "pages": [
+                  "exporting-contacts",
+                  "add-contacts-manually",
+                  "contact-profiles",
+                  "properties",
+                  "form-messages"
+                ]
+              },
+              {
+                "group": "Bookings & Appointments",
+                "pages": [
+                  "create-a-booking-service",
+                  "create-a-booking-operator",
+                  "auto-assign-booking-operator",
+                  "booking-availability",
+                  "questions-before-booking"
                 ]
               }
             ]
           }
-        ]
-      },
-      {
-        "tab": "Ecommerce"
-      },
-      {
-        "tab": "Sales Funnels",
-        "pages": [
-          "move-a-funnel-to-another-project",
-          "connect-a-custom-domain-to-your-funnel",
-          "customizing-your-funnel-settings",
-          "how-to-share-a-funnel",
-          "upsells-and-downsells"
-        ]
-      },
-      {
-        "tab": "Getting Set Up"
-      },
-      {
-        "tab": "Memberships",
-        "pages": [
-          "creating-a-membership-product"
-        ]
-      },
-      {
-        "tab": "SMS - WhatsApp - Voice Messaging",
-        "pages": [
-          "how-to-send-an-sms-marketing-campaign",
-          "how-to-send-a-voice-message-to-a-specific-contact",
-          "how-to-send-an-sms-to-a-specific-contact",
-          "how-to-send-a-whats-app-message-to-a-specific-contact"
-        ]
-      },
-      {
-        "tab": "Email Marketing & Automations",
-        "pages": [
-          "connecting-a-domain-for-email-sending",
-          "why-we-review-email-accounts",
-          "do-your-recipients-recognize-you",
-          "gmail-and-yahoos-new-email-requirements",
-          "individual-emailing",
-          {
-            "group": "Automations",
-            "pages": [
-              "automation-overview",
-              "automations-not-firing-what-can-i-do"
-            ]
-          },
-          {
-            "group": "Email Campaigns",
-            "pages": [
-              "creating-my-email-templates",
-              "email-campaigns"
-            ]
-          },
-          {
-            "group": "Subscribers",
-            "pages": [
-              "double-opt-in-for-your-forms",
-              "adding-subscribers-to-your-list-via-forms-checkouts-quizzes",
-              "adding-a-subscriber-to-a-list",
-              "importing-subscribers",
-              "how-to-unsubscribe-subscribe-a-user",
-              "creating-an-email-marketing-segment"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "CRM",
-        "pages": [
-          "exporting-contacts",
-          "add-contacts-manually",
-          "contact-profiles",
-          "properties",
-          "form-messages"
-        ]
-      },
-      {
-        "tab": "Bookings & Appointments",
-        "pages": [
-          "create-a-booking-service",
-          "create-a-booking-operator",
-          "auto-assign-booking-operator",
-          "booking-availability",
-          "questions-before-booking"
         ]
       }
     ]
