@@ -1,0 +1,21 @@
+---
+title: "Pre-Fill Your Form or Booking Fields From The URL"
+---
+
+If you have unique URL that contains variables in it that are used for quick personalization or pre-filling, you can send that data to the forms.
+
+**Example:** the URL contains **?name=John&country=USA** you can push the values for name and country to the page.
+
+## **Pushing the information to a Form, Booking or Checkout**
+
+The only thing you need to do is to make sure that the labels of your fields match the URL variables. In our examples you need to have 'name' and 'country' for labels of 2 fields in order to take the values and pre-fill in the fields.
+
+## **Displaying the information on the Page**
+
+All you need to do is use the personalization tag from our example: **{[param.name](http://param.name)}** or **{[param.country](http://param.country)}** anywhere on the page (for example in a text widget) and in the actual page it will display the actual value taken from the URL.
+
+If you want to push values from a submitted form to the next page: you have such setting checkbox in the form when you select to send people to a custom Thank You page. That will send all the fields to the next page in the URL in the same way as in the example.
+
+<Frame>
+  ![Image](/images/image-5.png)
+</Frame>
