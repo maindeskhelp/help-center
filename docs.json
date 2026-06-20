@@ -3,7 +3,7 @@
   "name": "Documentation",
   "theme": "mint",
   "colors": {
-    "primary": "#0D9488",
+    "primary": "#5555ff",
     "light": "#2DD4BF",
     "dark": "#111827"
   },
