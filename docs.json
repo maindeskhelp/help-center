@@ -171,7 +171,14 @@
         ]
       },
       {
-        "tab": "CRM"
+        "tab": "CRM",
+        "pages": [
+          "exporting-contacts",
+          "add-contacts-manually",
+          "contact-profiles",
+          "properties",
+          "form-messages"
+        ]
       }
     ]
   }
